@@ -25,7 +25,8 @@ class MainPresenter {
             contract?.showToast("Поздравляем!")
         } else if (model.count == 15) {
             contract?.changeColor(android.R.color.holo_green_light)
-        }
+        } else
+            contract?.changeColor(android.R.color.black)
     }
 
     fun detachContract(){
